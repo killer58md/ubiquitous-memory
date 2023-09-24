@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/signUp.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="sec">
+        <fieldset>
+            <form action="#">
+                <div class="SInpBox">
+                    <input type="text" name="user name" id="sUsIn" class="inputes" placeholder="enter your choose user name :" onkeyup="ustype()">
+                    <p class="InpStats" id="UsText">stats text</p>
+                    <input type="password" name="password" id="sPassIn" class="inputes" placeholder="creat thr password :" onkeyup="passtype()">
+                    <p class="InpStats" id="PassText">stats text</p>
+                    <input type="password" name="password" id="PassConIn" class="inputes" placeholder="confirm the password : " onkeyup="conpasstype()">
+                    <p class="InpStats" id="PassConText">stats text</p>
+
+
+
+                </div>
+                <div class="SubBox">
+                    <input type="submit" value="تایید" id="subin">
+                    <p class="changepage">اکانت دارم <a href="/html/login.html">میخوام واردش شم</a></p>
+                </div>
+            </form>
+        </fieldset> 
+    </div>
+    <script src="/js/index.js"></script>
+    <script src="/js/signUp.js"></script>
+</body>
+</html>

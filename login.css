@@ -1,0 +1,9 @@
+.LInpBox{
+    display: grid;
+    grid-template-columns: 90%;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    justify-content: center;
+    padding-top: 50px;
+
+}
