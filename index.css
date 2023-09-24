@@ -10,7 +10,7 @@
 }
 @font-face {
     font-family: "B Nazanin";
-    src: url(/font/BNazanin.ttf);
+    src: url(/BNazanin.ttf);
 }
 body{
     background-color: rgba(36, 32, 32, 0.795);
